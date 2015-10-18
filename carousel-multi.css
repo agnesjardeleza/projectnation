@@ -73,3 +73,11 @@ img {
   padding-top: 60px;
 
 }
+
+.sidebar a {
+	color: #FBF6E3;
+	
+}
+.sidebar a:hover {
+	text-decoration: none;
+}
