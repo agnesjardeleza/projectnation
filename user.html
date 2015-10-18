@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel=
+    "stylesheet">
+    <link href="carousel-multi.css" rel="stylesheet" type="text/css">
+    <link href="slick/slick.css" rel="stylesheet" type="text/css">
+    <link href="slick/slick-theme.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <title></title>
+</head>
+<body style="width: auto; padding: 0px; margin: 0px;">
+    <div class="bg-blur"><img src="bg.jpg"></div>
+    <div class="sidebar">
+        <div class="sidebar-toggle" style="color:#FBF6E3">
+            <span class="glyphicon glyphicon-menu-hamburger"></span>
+        </div>
+        <ul class="sidebar-list" style="font-size: 20px; color:#FBF6E3">
+            <li>Project Nation</li>
+            <li>Jose Rizal</li>
+            <li><small>Manage Projects</small></li>
+            <li>
+                <a href="#">Dashboard</a>
+            </li>
+            <li>
+                <a href="#" data-toggle="modal" data-target="#myModalForm">Create Project</a>
+            </li>
+            <li>Sort</li>
+            <li>Filter</li>
+            <li><a href="index.html">Logout <span class="glyphicon glyphicon-off"</a></li>
+        </ul>
+    </div>
+    <div class="container" style="text-align: center; vertical-align: middle; color: #FBF6E3">
+        <h1 class="title" style="font-size: 60px">PROJECT NATION</h1>
+    </div>
+    <div class="container" style="text-align: center; vertical-align: middle; color: #3A2E39">
+        <h1 style="margin-bottom: 60px">Department of Heroes</h1>
+    </div>
+    <div class="row">
+        <div class="col-xs-3"></div>
+        <div class="your-class col-xs-6" style=
+        "height: 150px; text-align: center; margin: 30px 0px;">
+            <div>
+                <button class="btn btn-lg" data-target="#myModal" data-toggle="modal" style=
+                "border-radius: 0px; border: 0px; height: 150px; width: 150px; white-space: normal; background-color: #FADC64"
+                type="button">
+                <p>Nationwide Greening Project</p>
+                <h5>sugar spice and everything nice</h5></button>
+            </div>
+            <div>
+                <button class="btn btn-lg" data-target="#myModal" data-toggle="modal" style=
+                "border-radius: 0px; border: 0px; height: 150px; width: 150px; white-space: normal; background-color: #FADC64"
+                type="button">
+                <p>Batangas Natural Gas Pipeline</p>
+                <h5>sugar spice and everything nice</h5></button>
+            </div>
+            <div>
+                <button class="btn btn-lg" data-target="#myModal" data-toggle="modal" style=
+                "border-radius: 0px; border: 0px; height: 150px; width: 150px; white-space: normal; background-color: #FADC64"
+                type="button">
+                <p>Launch demo modal</p>
+                <h5>sugar spice and everything nice</h5></button>
+            </div>
+            <div>
+                <button class="btn btn-lg" data-target="#myModal" data-toggle="modal" style=
+                "border-radius: 0px; border: 0px; height: 150px; width: 150px; white-space: normal; background-color: #FADC64"
+                type="button">
+                <p>Launch demo modal</p>
+                <h5>sugar spice and everything nice</h5></button>
+            </div>
+            <div>
+                <button class="btn btn-lg" data-target="#myModal" data-toggle="modal" style=
+                "border-radius: 0px; border: 0px; height: 150px; width: 150px; white-space: normal; background-color: #FADC64"
+                type="button">
+                <p>Launch demo modal</p>
+                <h5>sugar spice and everything nice</h5></button>
+            </div>
+        </div>
+        <div class="col-xs-3"></div>
+    </div>
+    
+    <!-- Modal -->
+    <div aria-labelledby="myModalLabel" class="modal fade" id="myModal" role="dialog" tabindex=
+    "-1">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content" style=
+            "background-color: #FBF6E3; height: 90%; box-shadow: 5px 5px rgba(0,0,0,.5); border-radius: 0px; border: none; color: #3A2E39">
+            <div class="modal-header">
+                    <button aria-label="Close" class="close" data-dismiss="modal" type=
+                    "button"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                </div>
+                <div class="modal-body">
+                    <!-- Tabs-->
+                    <ul class="nav nav-tabs" id="tabContent" style="color:#FBF6E3">
+                        <li class="active">
+                            <a data-toggle="tab" href="#details">Information</a>
+                        </li>
+                        <li>
+                            <a data-toggle="tab" href="#progress">Progress</a>
+                        </li>
+                        <li>
+                            <a data-toggle="tab" href="#personnel">Personnel</a>
+                        </li>
+                        <li>
+                            <a data-toggle="tab" href="#budget">Budget Allocation</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="details">
+                            <h3>Problem</h3><i>Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Morbi posuere ipsum at quam volutpat, ut consequat diam placerat.
+                            Fusce elit felis, egestas quis sem nec, mollis faucibus ante. Praesent
+                            gravida ante lacinia, molestie est a, ultricies nunc. Vestibulum ante
+                            ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+                            Duis luctus, lectus quis varius aliquam, eros ligula convallis felis,
+                            et efficitur sapien dolor ut orci.</i>
+                            <h3>Solution</h3><i>Phasellus vel orci felis. Nullam nec diam feugiat,
+                            hendrerit nisl quis, malesuada sem. Donec eget efficitur urna. Vivamus
+                            lorem dolor, convallis sit amet arcu ac, auctor varius libero.
+                            Phasellus vel enim tincidunt, pulvinar ante at, iaculis sapien.</i>
+                            <h3>Goal</h3><i>Duis velit massa, interdum quis dolor non, iaculis
+                            dictum nunc. Cras ullamcorper urna ac est scelerisque, nec convallis
+                            dui bibendum.</i>
+                            <h3>Target People</h3><i>Donec semper molestie dui, eu porta diam
+                            hendrerit vel.</i>
+                            <h4>Tags</h4><i>#semper #porta #felis.</i> share
+                        </div>
+                        <div class="tab-pane" id="progress">
+                            graph, current status, deadline, achieved so far
+                            <div class="first circle col-lg-3"></div>
+                        </div>
+                        <div class="tab-pane" id="personnel">
+                            accountable plus list of people
+                        </div>
+                        <div class="tab-pane text-center" id="budget" style=
+                        "vertical-align: middle">
+                            <p style="font-size: 140px;">P1.2 Billion</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Form Modal -->
+    <div aria-labelledby="myModalLabel" class="modal fade" id="myModalForm" role="dialog" tabindex=
+    "-1">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content" style=
+            "background-color: #FBF6E3; height: 90%; box-shadow: 5px 5px rgba(0,0,0,.5); border-radius: 0px; border: none; color: #3A2E39">
+            <div class="modal-header">
+                    <button aria-label="Close" class="close" data-dismiss="modal" type=
+                    "button"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Create Project</h4>
+                </div>
+                <div class="modal-body">
+                    <!-- Tabs-->
+                    <ul class="nav nav-tabs" id="tabContent" style="color:#FBF6E3">
+                        <li class="active">
+                            <a data-toggle="tab" href="#details-form">Information</a>
+                        </li>
+                        <li>
+                            <a data-toggle="tab" href="#progress-form">Progress</a>
+                        </li>
+                        <li>
+                            <a data-toggle="tab" href="#personnel-form">Personnel</a>
+                        </li>
+                        <li>
+                            <a data-toggle="tab" href="#budget-form">Budget Allocation</a>
+                        </li>
+                        <li>
+                            <a data-toggle="tab" href="#submit-form">Submit</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="details-form">
+                            <form>
+                                <h2 class="text-center">General Project Information</h2>
+                                <h3>Problem</h3>
+                                <textarea class="form-control" id="Problem" placeholder=
+                                "The problem being solved by this project" rows="5">
+</textarea>
+                                <h3>Solution</h3>
+                                <textarea class="form-control" id="Solution" placeholder=
+                                "The solution being offered by this project" rows="5">
+</textarea>
+                                <h3>Project Goals</h3>
+                                <h4>Goal 1</h4>
+                                <textarea class="form-control" id="goal-1" placeholder=
+                                "A goal of this project" rows="2">
+</textarea>
+                                <h4>Goal 2</h4>
+                                <textarea class="form-control" id="goal-2" placeholder=
+                                "A goal of this project" rows="2">
+</textarea>
+                                <h4>Goal 3</h4>
+                                <textarea class="form-control" id="goal-3" placeholder=
+                                "A goal of this project" rows="2">
+</textarea>
+                                <h3>Target People</h3>
+                                <textarea class="form-control" id="goal-1" placeholder=
+                                "Target Audience of Project" rows="2">
+</textarea>
+                                <h3>Tags</h3>
+                                <div class="input group">
+                                    <span class="input-group-addon">#</span> <input class=
+                                    "form-control" placeholder="Separate tags by spaces" type="text" id="tags">
+                                </div>
+                            
+                        </div>
+                        <div class="tab-pane" id="progress-form">
+                            <h2 class="text-center">Project Progress</h2>
+                            <i>All projects will begin at 0% progress. If updating a specific project, please open that project instead and edit from there.</i>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="min-width: 2em;">
+    0%
+                                </div>
+                            </div>
+                            <div class="first circle col-lg-3"></div>
+                        </div>
+                        <div class="tab-pane" id="personnel-form">
+                            <h2 class="text-center">Project Team</h2>
+                            <h3>Project Head</h3>
+                            <input type="text" class="form-control" placeholder="Person of Accountability">
+                            <h3>Team Members</h3>
+                            <input type="text" class="form-control" placeholder="Member 1" id="member-1"><br>
+                            <input type="text" class="form-control" placeholder="Member 2" id="member-2"><br>
+                            <input type="text" class="form-control" placeholder="Member 3" id="member-3"><br>
+                            <input type="text" class="form-control" placeholder="Member 4" id="member-4"><br>
+                            <input type="text" class="form-control" placeholder="Member 5" id="member-5"><br>
+                            <input type="text" class="form-control" placeholder="Member 6" id="member-6">
+                        </div>
+                        <div class="tab-pane text-center" id="budget-form" style=
+                        "vertical-align: middle">
+                            <h2 class="text-center">Financial Requirements</h2>
+                            <i>Input each basic item and their respective amounts on the right</i>
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <h3 class="text-center">Item</h3>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <h3 class="text-center">Amount</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <input type="text" placeholder="Budget Item" class="form-control">
+                                    </div>
+                                    <div class="col-lg-6 input-group">
+                                            <span class="input-group-addon">₱</span>
+                                            <input type="text" placeholder="Amount in Pesos" class="form-control">
+                                            <span class="input-group-addon">.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <input type="text" placeholder="Budget Item" class="form-control">
+                                    </div>
+                                    <div class="col-lg-6 input-group">
+                                            <span class="input-group-addon">₱</span>
+                                            <input type="text" placeholder="Amount in Pesos" class="form-control">
+                                            <span class="input-group-addon">.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <input type="text" placeholder="Budget Item" class="form-control">
+                                    </div>
+                                    <div class="col-lg-6 input-group">
+                                            <span class="input-group-addon">₱</span>
+                                            <input type="text" placeholder="Amount in Pesos" class="form-control">
+                                            <span class="input-group-addon">.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <input type="text" placeholder="Budget Item" class="form-control">
+                                    </div>
+                                    <div class="col-lg-6 input-group">
+                                            <span class="input-group-addon">₱</span>
+                                            <input type="text" placeholder="Amount in Pesos" class="form-control">
+                                            <span class="input-group-addon">.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <input type="text" placeholder="Budget Item" class="form-control">
+                                    </div>
+                                    <div class="col-lg-6 input-group">
+                                            <span class="input-group-addon">₱</span>
+                                            <input type="text" placeholder="Amount in Pesos" class="form-control">
+                                            <span class="input-group-addon">.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <input type="text" placeholder="Budget Item" class="form-control">
+                                    </div>
+                                    <div class="col-lg-6 input-group">
+                                            <span class="input-group-addon">₱</span>
+                                            <input type="text" placeholder="Amount in Pesos" class="form-control">
+                                            <span class="input-group-addon">.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <input type="text" placeholder="Budget Item" class="form-control">
+                                    </div>
+                                    <div class="col-lg-6 input-group">
+                                            <span class="input-group-addon">₱</span>
+                                            <input type="text" placeholder="Amount in Pesos" class="form-control">
+                                            <span class="input-group-addon">.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="submit-form">
+                            <h2 class="text-center">Submit Project</h2>
+                            <i>This will submit the project for approval by the undersecretary of your department.
+                            Please expect a normal delay of 1-3 working days for approval while under consideration.
+                            If the project requires a budget of over P50 million, it would require 4-7 working days
+                            in order to be discussed at a Management Committee meeting.</i>
+                            <br><br>
+                            <button type="submit" class="btn btn-default">Submit</button>
+                        </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- Form Modal -->
+    <div class="container">
+        <p class="text-muted text-center">HackBBz</p>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+    </script> 
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+    </script> 
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js" type="text/javascript">
+    </script> 
+    <script src="slick/slick.min.js" type="text/javascript">
+    </script> 
+    <script src="dist/circle-progress.js">
+    </script> 
+    <script type="text/javascript">
+        
+            $(document).ready(function() {
+            
+                $('.your-class').slick({
+                  slidesToShow: 4,
+                  slidesToScroll: 1,
+                  autoplay: true,
+                  autoplaySpeed: 2000,
+                });
+            });
+        
+    </script> 
+    <script type="text/javascript">
+    $(document).ready(function() {
+    sidebarStatus = false;
+    $('.sidebar-toggle').click(function() {
+    if (sidebarStatus == false) {
+      $('.sidebar').animate({
+        marginLeft: "0px",
+        opacity: "1"
+      }, 1000);
+      $('.content').animate({
+        marginLeft: "150px",
+        opacity: "1"
+      }, 1000);
+      sidebarStatus = true;
+    }
+    else {
+      $('.sidebar').animate({
+        marginLeft: "-150px",
+        opacity: "1"
+      }, 1000);
+      $('.content').animate({
+        marginLeft: "0px",
+        opacity: "1"
+      }, 1000);
+      sidebarStatus = false;
+    }
+    });
+    });
+    </script> <!-- Chart -->
+     
+    <script>
+
+    $('.first.circle').circleProgress({
+    value: 0.8
+    }).on('circle-animation-progress', function(event, progress) {
+    $(this).find('strong').html(parseInt(400 * progress) + '<i>%<\/i>');
+    });
+
+
+    </script>
+</body>
+</html>
