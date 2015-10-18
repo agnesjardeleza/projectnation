@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway';
+}
+
+.content {
+  padding-left: 40px;
+  top:0;
+  height:120px;
+   background-color: green;
+}
+
+.sidebar-toggle {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  width: 20px;
+  height: 20px;
+  padding-right: 40px;
+  padding-top: 10px;
+  background: transparent;
+  font-size: 25px;
+}
+
+.sidebar {
+  position: absolute;
+  top:0;
+  background: #195E6A;
+  width: 200px;
+  color: black;
+  margin-left: -150px;
+  height: 100%;
+}
+
+.sidebar-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 160px;
+  text-align: right;
+
+}
+
+.sidebar-list li {
+  padding: 10px;
+}
+
+.bg-blur {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: -1;
+
+  display: block;
+  width: 2000px;
+  height: 1500px;
+
+  -webkit-filter: blur(15px);
+  -moz-filter: blur(15px);
+  -o-filter: blur(15px);
+  -ms-filter: blur(15px);
+  filter: blur(15px);
+
+}
+
+img {
+	height: 100%;
+	width: 100%;
+}
+
+.title {
+  padding-top: 60px;
+
+}
